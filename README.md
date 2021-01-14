@@ -1,14 +1,14 @@
 echo-pprof
 ========
 
-A wrapper for [golang web framework echo v4](https://github.com/labstack/echo/v4) to use `net/http/pprof` easily.
+A wrapper for [golang web framework echo v4](https://github.com/labstack/echo) to use `net/http/pprof` easily.
 
 ## Install
 
 First install echo-pprof to your GOPATH using `go get`:
 
 ```sh
-go get github.com/sevenNt/echo-pprof
+go get github.com/newmind/echo-pprof
 ```
 
 ## Usage
