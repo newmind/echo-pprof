@@ -1,7 +1,7 @@
 echo-pprof
 ========
 
-A wrapper for [golang web framework echo](https://github.com/labstack/echo) to use `net/http/pprof` easily.
+A wrapper for [golang web framework echo v4](https://github.com/labstack/echo/v4) to use `net/http/pprof` easily.
 
 ## Install
 
@@ -17,8 +17,8 @@ go get github.com/sevenNt/echo-pprof
 package main
 
 import (
-	"github.com/labstack/echo"
-	"github.com/sevenNt/echo-pprof"
+	"github.com/labstack/echo/v4"
+	"github.com/newmind/echo-pprof"
 )
 
 func main() {
